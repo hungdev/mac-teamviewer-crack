@@ -3,6 +3,6 @@
 
 > STEP 2 Run the following commands：
 
-	sudo python ./teamViewer-id-changer.py
+	sudo python ./TeamViewer-id-changer.py
 
 > STEP 3 Reboot Your computer

@@ -7,4 +7,4 @@
 
 > STEP 3 Reboot Your computer
 
-`[source](https://gist.github.com/zhenhappy/3c808a198715978a38acf0ba44044ea6)`
+[source](https://gist.github.com/zhenhappy/3c808a198715978a38acf0ba44044ea6)

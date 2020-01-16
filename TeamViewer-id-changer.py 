@@ -14,6 +14,10 @@ TeamViewer ID Changer for MAC OS
 --------------------------------
 ''')
 
+if sys.version[0:1] != "2":
+    print("This script can be run only on Python27.")
+    sys.exit()
+
 if platform.system() != "Darwin":
     print("This script can be run only on MAC OS.")
     sys.exit()
@@ -80,8 +84,7 @@ All TeamViewer settings will be lost
 TMBINARYES = [
     '/Applications/TeamViewer.app/Contents/MacOS/TeamViewer',
     '/Applications/TeamViewer.app/Contents/MacOS/TeamViewer_Service',
-    '/Applications/TeamViewer.app/Contents/Helpers/TeamViewer_Desktop',
-    '/Applications/TeamViewer.app/Contents/Helpers/TeamViewer_Assignment'
+    '/Applications/TeamViewer.app/Contents/MacOS/TeamViewer_Desktop'
 ]
 
 for file in TMBINARYES:
